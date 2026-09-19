@@ -17,6 +17,7 @@
     font: var(--heading-font);
     list-style-type: disc;
     padding-left: 0;
+
 }
 
 body {
@@ -35,6 +36,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    font: var(--body-font);
 }
 
 nav,
@@ -70,7 +72,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 10px;
     padding: 2px;
@@ -84,7 +86,7 @@ section h2 {
     padding: 10px;
     position: relative;
     text-align: center;
-    box-shadow: blue;
+    box-shadow: var(--secondary-color);
     background-color: var(--accent2-color);
     width: 100%;
 }
@@ -98,4 +100,5 @@ section h2 {
     width: 50px;
     display: inline-block;
     margin-right: 15px;
+
 }
