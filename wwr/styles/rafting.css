@@ -34,7 +34,7 @@ footer {
 
 h1,
 h2 {
-    font-family: var(--heading-font);
+    font-family: var(--accent2-color);
     color: var(--primary-color);
     font: var(--body-font);
 }
