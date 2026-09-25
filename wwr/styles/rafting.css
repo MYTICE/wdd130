@@ -88,7 +88,7 @@ section h2 {
     position: relative;
     text-align: center;
     box-shadow: var(--secondary-color);
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     width: 100%;
 }
 
