@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #055a05;
-    --secondary-color: #f4a261;
+    --primary-color: white;
+    --secondary-color: darkblue;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
+    --accent2-color: gray;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -78,7 +78,7 @@ h1 {
     padding: 2px;
     width: 96.5%;
     text-align: left;
-    background-color: rgb(0, 200, 255);
+    background-color: rgb(132, 146, 164);
 
 }
 
@@ -96,10 +96,14 @@ section h2 {
     width: 125px;
 }
 
+.socialmedia {
+    display: flex;
+    gap: 15px;
+}
+
 .socialmedia img {
-    width: 50px;
-    display: inline-block;
-    margin-right: 15px;
+    width: 40px;
+    height: auto;
 
 }
 
@@ -132,4 +136,41 @@ nav a {
 
 nav a:hover {
     color: #0056b3;
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.history-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.adventure {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.adventure figure {
+    text-align: center;
+    margin: 0;
+}
+
+.adventure img {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2 rem;
 }
