@@ -176,14 +176,17 @@ footer {
     padding: 10px;
 }
 
-.mainwater {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 0;
+.company-info {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.contacto {
+.company-info h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.company-info address {
     display: flex;
     gap: 30px;
     align-items: flex-start;
