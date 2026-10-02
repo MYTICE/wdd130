@@ -176,8 +176,33 @@ footer {
     padding: 10px;
 }
 
-.class-form {
+.mainwater {
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    top: 0;
+}
+
+.contacto {
+    display: flex;
     gap: 30px;
+    align-items: flex-start;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
