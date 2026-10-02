@@ -184,9 +184,11 @@ footer {
 }
 
 .mainwater h1 {
-    position: static;
-    display: block;
-    margin: 0 auto 10px auto;
+    display: block !important;
+    color: #000000 !important;
+    margin-top: 20px !important;
+    font-size: 32px;
+    text-align: center;
 }
 
 .contacto {
