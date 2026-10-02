@@ -13,15 +13,8 @@
     box-sizing: border-box;
 }
 
-.menu {
-    font: var(--heading-font);
-    list-style-type: none;
-    padding-left: 0;
-
-}
-
 body {
-    font-family: var(--bofy-font);
+    font-family: var(--body-font);
     color: var(--accent1-color);
 }
 
@@ -34,9 +27,7 @@ footer {
 
 h1,
 h2 {
-    font-family: var(--accent2-color);
-    color: var(--primary-color);
-    font: var(--body-font);
+    font-family: var(--heading-font);
 }
 
 nav,
@@ -47,67 +38,7 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
-}
-
-.hero article {
-    position: absolute;
-    bottom: 10px;
-    padding: 2px;
-    width: 96.5%;
-    text-align: left;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
-
-}
-
-section h2 {
-    padding: 10px;
-    position: relative;
-    text-align: center;
-    box-shadow: var(--secondary-color);
-    background-color: var(--secondary-color);
-    width: 100%;
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
-}
-
-.socialmedia {
-    display: flex;
-    gap: 15px;
-}
-
-.socialmedia img {
-    width: 40px;
-    height: auto;
-
-}
-
+/* HEADER Y NAVEGACIÓN */
 header {
     display: grid;
     grid-template-columns: 120px 1fr;
@@ -136,9 +67,104 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
+/* SECCIÓN MAINWATER (Título de la empresa e información) */
+.mainwater {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.mainwater h1 {
+    font-size: 32px;
+    color: #000000;
+    background-color: transparent;
+    opacity: 1;
+    position: static;
+    margin-bottom: 10px;
+}
+
+.mainwater p {
+    margin: 4px 0;
+    padding: 0;
+}
+
+/* SECCIÓN HERO (Solo si usas héroe en otras páginas) */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10px;
+    padding: 2px;
+    width: 96.5%;
+    text-align: left;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+section h2 {
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    width: 100%;
+}
+
+/* SECCIÓN CONTACTO (Mapa y Formulario) */
+.contacto {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* OTRAS SECCIONES Y FOOTER */
 .history-grid {
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
@@ -176,41 +202,16 @@ footer {
     padding: 10px;
 }
 
-.mainwater {
-    text-align: center;
-    width: 100%;
-    clear: both;
-    margin-top: 20px;
-}
-
-.mainwater h1 {
-    display: block !important;
-    color: #000000 !important;
-    margin-top: 20px !important;
-    font-size: 32px;
-    text-align: center;
-}
-
-.contacto {
+.socialmedia {
     display: flex;
-    gap: 30px;
-    align-items: flex-start;
+    gap: 15px;
 }
 
-.formulario {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.socialmedia a {
+    text-decoration: none;
 }
 
-.radio-group {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.checkbox-group {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+.socialmedia img {
+    width: 40px;
+    height: auto;
 }
