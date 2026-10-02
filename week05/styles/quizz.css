@@ -1,0 +1,59 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 410px;
+    color: blue;
+}
+
+.header-container h1 {
+    margin: 0;
+    text-align: left;
+}
+
+.header-container input {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    accent-color: black;
+}
+
+form span {
+    color: blue;
+    width: 10px;
+    height: 10px;
+}
+
+form {
+    background-color: rgb(197, 192, 192);
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    border-radius: .5rem;
+}
+
+.exampleCode {
+    background-color: rgb(44, 41, 41);
+    color: white;
+    margin-left: 2rem;
+    margin-right: 35rem;
+    padding-left: .25rem;
+
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: .5rem;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+    margin: .5rem;
+}
