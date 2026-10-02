@@ -176,17 +176,20 @@ footer {
     padding: 10px;
 }
 
-.company-info {
+.mainwater {
     text-align: center;
-    margin-bottom: 20px;
+    width: 100%;
+    clear: both;
+    margin-top: 20px;
 }
 
-.company-info h1 {
-    font-size: 28px;
-    margin-bottom: 8px;
+.mainwater h1 {
+    position: static;
+    display: block;
+    margin: 0 auto 10px auto;
 }
 
-.company-info address {
+.contacto {
     display: flex;
     gap: 30px;
     align-items: flex-start;
